@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2em;
+  font-family: "Montserrat";
+}
+
+main, section {
+  min-width: 150px;
+}
+
+.product-name {
+  font-size: clamp(12px, 6vw, 20px);
+  margin-bottom: -1em;
+}
+
+.product-description {
+  font-size: clamp(12px, 6vw, 20px);
+  margin-bottom: 1em;
+}
+
+.price-container > p {
+  font-family: "Fraunces";
+}
+
+span {
+  font-family: "Montserrat";
+}
+
+.french {
+  font-family: "Fraunces";
+  font-size: clamp(16px, 10vw, 55px);
+  font-weight: 700;
+  line-height: 0.9em;
+  margin-top: 1em;
+  margin-bottom: 0.6em;
+}
+
+.product-image {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 4px;
+  width: 90%;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+}
+
+.price_with-discount {
+  font-size: clamp(20px, 10vw, 55px);
+  font-weight: 800;
+  color: hsl(158, 36%, 37%);
+  margin-bottom: 1em;
+}
+
+.product-description, .product-description {
+  color: hsl(212, 21%, 14%);
+}
+
+.price_without-discount {
+  font-size: clamp(10px, 4vw, 25px);
+  text-decoration: line-through;
+  vertical-align: middle;
+  color: hsl(212, 21%, 14%);
+}
+
+strong {
+  font-size: clamp(12px, 4vw, 23px);
+  font-weight: 700;
+  color: white;
+}
+
+section {
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+main {
+  background-color: white;
+  padding-left: 1em;
+  padding-top: 1.3em;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
